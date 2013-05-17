@@ -1,0 +1,1411 @@
+2013-04-10 17:45:29 Error: [MissingActionException] Action ClientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'index',
+)
+Request URL: /clientes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-10 17:45:41 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Clientes\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Clientes\\index.ctp',
+)
+Request URL: /clientes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 13:07:17 Error: [MissingControllerException] Controller class MediaController could not be found.
+Exception Attributes: array (
+  'class' => 'MediaController',
+  'plugin' => 'Media',
+)
+Request URL: /media
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:18:41 Error: [MissingControllerException] Controller class TesteController could not be found.
+Exception Attributes: array (
+  'class' => 'TesteController',
+  'plugin' => NULL,
+)
+Request URL: /teste
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:19:23 Error: [MissingControllerException] Controller class TestesController could not be found.
+Exception Attributes: array (
+  'class' => 'TestesController',
+  'plugin' => NULL,
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:28:58 Error: [MissingControllerException] Controller class TestesController could not be found.
+Exception Attributes: array (
+  'class' => 'TestesController',
+  'plugin' => NULL,
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:33:21 Error: [MissingActionException] Action TestesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TestesController',
+  'action' => 'index',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-17 13:33:25 Error: [MissingControllerException] Controller class TesteController could not be found.
+Exception Attributes: array (
+  'class' => 'TesteController',
+  'plugin' => NULL,
+)
+Request URL: /teste
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:33:33 Error: [MissingActionException] Action TestesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TestesController',
+  'action' => 'index',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-17 13:47:48 Error: [MissingControllerException] Controller class TestsController could not be found.
+Exception Attributes: array (
+  'class' => 'TestsController',
+  'plugin' => NULL,
+)
+Request URL: /tests
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:48:08 Error: [MissingControllerException] Controller class Tests.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Tests.phpController',
+  'plugin' => NULL,
+)
+Request URL: /tests.php
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:48:15 Error: [MissingControllerException] Controller class WwwrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WwwrootController',
+  'plugin' => NULL,
+)
+Request URL: /wwwroot/tests.php
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:48:40 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /webroot/tests.php
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:48:44 Error: [MissingControllerException] Controller class Tests.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Tests.phpController',
+  'plugin' => NULL,
+)
+Request URL: /tests.php
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:56:58 Error: [MissingControllerException] Controller class Tests.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Tests.phpController',
+  'plugin' => NULL,
+)
+Request URL: /tests.php
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 13:58:44 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:08:43 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:08:48 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:08:52 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:11:32 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:14:50 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:15:16 Error: [ForbiddenException] Forbidden
+Request URL: /media/medias/index/Testes/1
+Stack Trace:
+#0 [internal function]: MediasController->index('Testes', '1')
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(MediasController), Array)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:12 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:15 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:26 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:28 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:44 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:50 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 14:21:51 Error: [MissingViewException] View file "D:\sites\dsprog\app\Plugin\Media\View\Medias\order.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\Plugin\\Media\\View\\Medias\\order.ctp',
+)
+Request URL: /media/medias/order
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(MediasController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-17 16:18:30 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-17 17:22:02 Error: Fatal Error (4): syntax error, unexpected '(' in [D:\sites\dsprog\app\Plugin\TinyMCE\webroot\js\tiny_mce\tiny_mce.js, line 1]
+2013-04-17 17:22:02 Error: [FatalErrorException] syntax error, unexpected '('
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-17 17:31:23 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [D:\sites\dsprog\app\Controller\ContentsController.php, line 9]
+2013-04-17 17:31:23 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /contents/add
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 9, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 9, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-17 17:32:01 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [D:\sites\dsprog\app\Controller\ContentsController.php, line 9]
+2013-04-17 17:32:01 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /contents/add
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 9, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 9, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-17 17:32:02 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [D:\sites\dsprog\app\Controller\ContentsController.php, line 9]
+2013-04-17 17:32:02 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /contents/add
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 9, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 9, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-17 17:53:45 Error: [MissingControllerException] Controller class TymemceController could not be found.
+Exception Attributes: array (
+  'class' => 'TymemceController',
+  'plugin' => NULL,
+)
+Request URL: /tymemce
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 15:19:33 Error: Fatal Error (4): syntax error, unexpected '(' in [D:\sites\dsprog\app\Plugin\TinyMCE\webroot\js\tiny_mce\tiny_mce.js, line 1]
+2013-04-18 15:19:33 Error: [FatalErrorException] syntax error, unexpected '('
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-18 15:20:09 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:19:30 Error: [MissingPluginException] Plugin  could not be found.
+Exception Attributes: array (
+  'plugin' => '',
+)
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(130): CakePlugin::path('')
+#1 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(55): AssetDispatcher->_getAssetFile('/TinyMCE/js/tin...')
+#2 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#3 D:\sites\dsprog\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#4 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#5 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-04-18 16:19:55 Error: [MissingPluginException] Plugin  could not be found.
+Exception Attributes: array (
+  'plugin' => '',
+)
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(130): CakePlugin::path('')
+#1 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(55): AssetDispatcher->_getAssetFile('/TinyMCE/js/tin...')
+#2 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#3 D:\sites\dsprog\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#4 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#5 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-04-18 16:19:55 Error: Fatal Error (4): syntax error, unexpected '(' in [D:\sites\dsprog\app\Plugin\TinyMCE\webroot\js\tiny_mce\tiny_mce.js, line 1]
+2013-04-18 16:19:55 Error: [FatalErrorException] syntax error, unexpected '('
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-18 16:34:44 Error: [MissingPluginException] Plugin  could not be found.
+Exception Attributes: array (
+  'plugin' => '',
+)
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(130): CakePlugin::path('')
+#1 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(55): AssetDispatcher->_getAssetFile('/TinyMCE/js/tin...')
+#2 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#3 D:\sites\dsprog\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#4 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#5 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-04-18 16:38:58 Error: [MissingControllerException] Controller class TinyMCEController could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEController',
+  'plugin' => NULL,
+)
+Request URL: /TinyMCE
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:39:31 Error: [MissingPluginException] Plugin  could not be found.
+Exception Attributes: array (
+  'plugin' => '',
+)
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(130): CakePlugin::path('')
+#1 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(55): AssetDispatcher->_getAssetFile('/TinyMCE/js/tin...')
+#2 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#3 D:\sites\dsprog\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#4 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#5 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-04-18 16:39:34 Error: [MissingPluginException] Plugin  could not be found.
+Exception Attributes: array (
+  'plugin' => '',
+)
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(130): CakePlugin::path('')
+#1 D:\sites\dsprog\lib\Cake\Routing\Filter\AssetDispatcher.php(55): AssetDispatcher->_getAssetFile('/TinyMCE/js/tin...')
+#2 [internal function]: AssetDispatcher->beforeDispatch(Object(CakeEvent))
+#3 D:\sites\dsprog\lib\Cake\Event\CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#4 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(142): CakeEventManager->dispatch(Object(CakeEvent))
+#5 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-04-18 16:39:49 Error: [MissingControllerException] Controller class PluginController could not be found.
+Exception Attributes: array (
+  'class' => 'PluginController',
+  'plugin' => NULL,
+)
+Request URL: /plugin
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:44:23 Error: [MissingControllerException] Controller class PluginController could not be found.
+Exception Attributes: array (
+  'class' => 'PluginController',
+  'plugin' => NULL,
+)
+Request URL: /plugin
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-18 16:49:08 Error: Fatal Error (4): syntax error, unexpected '(' in [D:\sites\dsprog\app\Plugin\TinyMCE\webroot\js\tiny_mce\tiny_mce.js, line 1]
+2013-04-18 16:49:08 Error: [FatalErrorException] syntax error, unexpected '('
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-18 16:53:50 Error: Fatal Error (4): syntax error, unexpected '(' in [D:\sites\dsprog\app\Plugin\TinyMCE\webroot\js\tiny_mce\tiny_mce.js, line 1]
+2013-04-18 16:53:50 Error: [FatalErrorException] syntax error, unexpected '('
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-18 16:55:50 Error: Fatal Error (4): syntax error, unexpected '(' in [D:\sites\dsprog\app\Plugin\TinyMCE\webroot\js\tiny_mce\tiny_mce.js, line 1]
+2013-04-18 16:55:50 Error: [FatalErrorException] syntax error, unexpected '('
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 1, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-25 13:49:11 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('View/Helper', 'Media')
+#3 [internal function]: App::load('MediaHelper')
+#4 [internal function]: spl_autoload_call('MediaHelper')
+#5 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(130): class_exists('MediaHelper')
+#6 D:\sites\dsprog\lib\Cake\View\View.php(884): HelperCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\View\View.php(464): View->loadHelpers()
+#8 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render('home', NULL)
+#9 D:\sites\dsprog\app\Controller\PagesController.php(73): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-04-25 13:50:15 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('View/Helper', 'Media')
+#3 [internal function]: App::load('MediaHelper')
+#4 [internal function]: spl_autoload_call('MediaHelper')
+#5 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(130): class_exists('MediaHelper')
+#6 D:\sites\dsprog\lib\Cake\View\View.php(884): HelperCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\View\View.php(464): View->loadHelpers()
+#8 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render('home', NULL)
+#9 D:\sites\dsprog\app\Controller\PagesController.php(73): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-04-25 13:50:21 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('View/Helper', 'Media')
+#3 [internal function]: App::load('MediaHelper')
+#4 [internal function]: spl_autoload_call('MediaHelper')
+#5 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(130): class_exists('MediaHelper')
+#6 D:\sites\dsprog\lib\Cake\View\View.php(884): HelperCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\View\View.php(464): View->loadHelpers()
+#8 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render('home', NULL)
+#9 D:\sites\dsprog\app\Controller\PagesController.php(73): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-04-25 13:51:35 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('View/Helper', 'Media')
+#3 [internal function]: App::load('MediaHelper')
+#4 [internal function]: spl_autoload_call('MediaHelper')
+#5 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(130): class_exists('MediaHelper')
+#6 D:\sites\dsprog\lib\Cake\View\View.php(884): HelperCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\View\View.php(464): View->loadHelpers()
+#8 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render('home', NULL)
+#9 D:\sites\dsprog\app\Controller\PagesController.php(73): Controller->render('home')
+#10 [internal function]: PagesController->display('home')
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#12 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#13 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#14 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-04-25 13:54:05 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 13:54:06 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 13:54:30 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 13:54:31 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 13:59:22 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:03:36 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:06:41 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:06:43 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:07:07 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-25 14:07:21 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:09:40 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-25 14:42:20 Error: [MissingHelperException] Helper class TinyMCEHelper could not be found.
+Exception Attributes: array (
+  'class' => 'TinyMCEHelper',
+  'plugin' => false,
+)
+Request URL: /contents/add
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('TinyMCE')
+#1 D:\sites\dsprog\lib\Cake\View\View.php(835): HelperCollection->__isset('TinyMCE')
+#2 D:\sites\dsprog\app\View\Contents\add.ctp(1): View->__get('TinyMCE')
+#3 D:\sites\dsprog\lib\Cake\View\View.php(947): include('D:\sites\dsprog...')
+#4 D:\sites\dsprog\lib\Cake\View\View.php(909): View->_evaluate('D:\sites\dsprog...', Array)
+#5 D:\sites\dsprog\lib\Cake\View\View.php(471): View->_render('D:\sites\dsprog...')
+#6 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#7 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#8 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest), Object(CakeResponse))
+#9 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-04-25 14:42:39 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('Model/Behavior', 'Media')
+#3 [internal function]: App::load('MediaBehavior')
+#4 [internal function]: spl_autoload_call('MediaBehavior')
+#5 D:\sites\dsprog\lib\Cake\Model\BehaviorCollection.php(122): class_exists('MediaBehavior')
+#6 D:\sites\dsprog\lib\Cake\Model\BehaviorCollection.php(68): BehaviorCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\Model\Model.php(749): BehaviorCollection->init('Testis', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 D:\sites\dsprog\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#10 D:\sites\dsprog\lib\Cake\Controller\Controller.php(734): ClassRegistry::init(Array)
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Testis')
+#12 D:\sites\dsprog\lib\Cake\Controller\Controller.php(405): Controller->__isset('Testis')
+#13 D:\sites\dsprog\app\Controller\TestesController.php(15): Controller->__get('Testis')
+#14 [internal function]: TestesController->index()
+#15 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(TestesController), Array)
+#16 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#17 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2013-04-25 14:43:20 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('Model/Behavior', 'Media')
+#3 [internal function]: App::load('MediaBehavior')
+#4 [internal function]: spl_autoload_call('MediaBehavior')
+#5 D:\sites\dsprog\lib\Cake\Model\BehaviorCollection.php(122): class_exists('MediaBehavior')
+#6 D:\sites\dsprog\lib\Cake\Model\BehaviorCollection.php(68): BehaviorCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\Model\Model.php(749): BehaviorCollection->init('Testis', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 D:\sites\dsprog\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#10 D:\sites\dsprog\lib\Cake\Controller\Controller.php(734): ClassRegistry::init(Array)
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Testis')
+#12 D:\sites\dsprog\lib\Cake\Controller\Controller.php(405): Controller->__isset('Testis')
+#13 D:\sites\dsprog\app\Controller\TestesController.php(15): Controller->__get('Testis')
+#14 [internal function]: TestesController->index()
+#15 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(TestesController), Array)
+#16 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#17 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2013-04-25 14:43:21 Error: [MissingPluginException] Plugin Media could not be found.
+Exception Attributes: array (
+  'plugin' => 'Media',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Media')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Media')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('Model/Behavior', 'Media')
+#3 [internal function]: App::load('MediaBehavior')
+#4 [internal function]: spl_autoload_call('MediaBehavior')
+#5 D:\sites\dsprog\lib\Cake\Model\BehaviorCollection.php(122): class_exists('MediaBehavior')
+#6 D:\sites\dsprog\lib\Cake\Model\BehaviorCollection.php(68): BehaviorCollection->load('Media.Media', Array)
+#7 D:\sites\dsprog\lib\Cake\Model\Model.php(749): BehaviorCollection->init('Testis', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 D:\sites\dsprog\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#10 D:\sites\dsprog\lib\Cake\Controller\Controller.php(734): ClassRegistry::init(Array)
+#11 D:\sites\dsprog\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Testis')
+#12 D:\sites\dsprog\lib\Cake\Controller\Controller.php(405): Controller->__isset('Testis')
+#13 D:\sites\dsprog\app\Controller\TestesController.php(15): Controller->__get('Testis')
+#14 [internal function]: TestesController->index()
+#15 D:\sites\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(TestesController), Array)
+#16 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#17 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#18 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2013-04-26 12:46:12 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:46:49 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /pages/testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:46:59 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /pages/teste
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:48:48 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /pages/teste
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:48:53 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:51:19 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:51:21 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:51:21 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:52:42 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-26 12:52:58 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\display.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:54:10 Error: [MissingControllerException] Controller class TesteController could not be found.
+Exception Attributes: array (
+  'class' => 'TesteController',
+  'plugin' => NULL,
+)
+Request URL: /teste
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-26 12:57:25 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\dados.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\dados.ctp',
+)
+Request URL: /pages/dados
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 12:58:48 Error: [MissingViewException] View file "D:\sites\dsprog\app\View\Pages\dados.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Pages\\dados.ctp',
+)
+Request URL: /pages/dados
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#2 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-04-26 13:01:57 Error: [MissingActionException] Action PagesController::dados() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'dados',
+)
+Request URL: /pages/dados
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-26 13:07:15 Error: Fatal Error (4): syntax error, unexpected T_PUBLIC in [D:\sites\dsprog\app\Controller\PagesController.php, line 13]
+2013-04-26 13:07:15 Error: [FatalErrorException] syntax error, unexpected T_PUBLIC
+Request URL: /pages/teste
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 13, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 13, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 13:17:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/js/bootstrap.min.js
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-26 13:27:12 Error: [MissingLayoutException] Layout file "D:\sites\dsprog\app\View\Layouts\home.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\sites\\dsprog\\app\\View\\Layouts\\home.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\View\View.php(509): View->_getLayoutFileName('home')
+#1 D:\sites\dsprog\lib\Cake\View\View.php(479): View->renderLayout('', 'home')
+#2 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#3 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#4 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-04-26 13:48:42 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /pages/
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-26 14:39:18 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 28]
+2013-04-26 14:39:18 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 28, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 28, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 14:39:26 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 28]
+2013-04-26 14:39:26 Error: [FatalErrorException] syntax error, unexpected T_DOUBLE_ARROW
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 28, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 28, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 14:40:55 Error: Fatal Error (1): Cannot unset string offsets in [D:\sites\dsprog\lib\Cake\View\Helper\HtmlHelper.php, line 356]
+2013-04-26 14:40:55 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'D:\sites\dsprog...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'D:\sites\dsprog...', 356, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'D:\sites\dsprog...', 356, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 14:40:57 Error: Fatal Error (1): Cannot unset string offsets in [D:\sites\dsprog\lib\Cake\View\Helper\HtmlHelper.php, line 356]
+2013-04-26 14:40:57 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'D:\sites\dsprog...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'D:\sites\dsprog...', 356, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'D:\sites\dsprog...', 356, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 14:40:58 Error: Fatal Error (1): Cannot unset string offsets in [D:\sites\dsprog\lib\Cake\View\Helper\HtmlHelper.php, line 356]
+2013-04-26 14:40:58 Error: [FatalErrorException] Cannot unset string offsets
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Cannot unset st...', 'D:\sites\dsprog...', 356)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot unset st...', 'D:\sites\dsprog...', 356, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot unset st...', 'D:\sites\dsprog...', 356, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 14:56:23 Error: Fatal Error (4): syntax error, unexpected ':' in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 31]
+2013-04-26 14:56:23 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 31, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 31, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 14:56:24 Error: Fatal Error (4): syntax error, unexpected ':' in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 31]
+2013-04-26 14:56:24 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 31)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 31, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 31, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 17:21:10 Error: Fatal Error (1): Class 'Xml' not found in [D:\sites\dsprog\app\View\Helper\MenuHelper.php, line 37]
+2013-04-26 17:21:10 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 17:22:26 Error: Fatal Error (1): Class 'Xml' not found in [D:\sites\dsprog\app\View\Helper\MenuHelper.php, line 37]
+2013-04-26 17:22:26 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 17:22:27 Error: Fatal Error (1): Class 'Xml' not found in [D:\sites\dsprog\app\View\Helper\MenuHelper.php, line 37]
+2013-04-26 17:22:27 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 17:22:28 Error: Fatal Error (1): Class 'Xml' not found in [D:\sites\dsprog\app\View\Helper\MenuHelper.php, line 37]
+2013-04-26 17:22:28 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-26 17:22:37 Error: Fatal Error (1): Class 'Xml' not found in [D:\sites\dsprog\app\View\Helper\MenuHelper.php, line 37]
+2013-04-26 17:22:37 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', 'D:\sites\dsprog...', 37, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 13:44:08 Error: Fatal Error (4): syntax error, unexpected ',' in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 32]
+2013-04-29 13:44:08 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 32, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 32, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 13:46:02 Error: [MissingControllerException] Controller class CurriculumController could not be found.
+Exception Attributes: array (
+  'class' => 'CurriculumController',
+  'plugin' => NULL,
+)
+Request URL: /curriculum
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 14:03:19 Error: [MissingActionException] Action ClientesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'index',
+)
+Request URL: /clientes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-04-29 14:05:15 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';' in [D:\sites\dsprog\app\Controller\ClientesController.php, line 4]
+2013-04-29 14:05:15 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting ',' or ';'
+Request URL: /clientes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 4, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 4, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 14:05:23 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [D:\sites\dsprog\app\Controller\ClientesController.php, line 4]
+2013-04-29 14:05:23 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /clientes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 4, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 4, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 14:11:38 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/add
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 14:25:16 Error: Fatal Error (1): Call to undefined method View::is() in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 23]
+2013-04-29 14:25:16 Error: [FatalErrorException] Call to undefined method View::is()
+Request URL: /clientes/add
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\sites\dsprog...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\sites\dsprog...', 23, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\sites\dsprog...', 23, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 15:24:53 Error: [MissingPluginException] Plugin BootstrapCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BootstrapCake',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('BootstrapCake')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('BootstrapCake')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('View/Helper', 'BootstrapCake')
+#3 [internal function]: App::load('BootstrapHelper')
+#4 [internal function]: spl_autoload_call('BootstrapHelper')
+#5 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(130): class_exists('BootstrapHelper')
+#6 D:\sites\dsprog\lib\Cake\View\View.php(884): HelperCollection->load('BootstrapCake.B...', Array)
+#7 D:\sites\dsprog\lib\Cake\View\View.php(464): View->loadHelpers()
+#8 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#9 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#10 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-29 15:24:55 Error: [MissingPluginException] Plugin BootstrapCake could not be found.
+Exception Attributes: array (
+  'plugin' => 'BootstrapCake',
+)
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('BootstrapCake')
+#1 D:\sites\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('BootstrapCake')
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(544): App::path('View/Helper', 'BootstrapCake')
+#3 [internal function]: App::load('BootstrapHelper')
+#4 [internal function]: spl_autoload_call('BootstrapHelper')
+#5 D:\sites\dsprog\lib\Cake\View\HelperCollection.php(130): class_exists('BootstrapHelper')
+#6 D:\sites\dsprog\lib\Cake\View\View.php(884): HelperCollection->load('BootstrapCake.B...', Array)
+#7 D:\sites\dsprog\lib\Cake\View\View.php(464): View->loadHelpers()
+#8 D:\sites\dsprog\lib\Cake\Controller\Controller.php(948): View->render(NULL, NULL)
+#9 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#10 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(TestesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-04-29 15:25:28 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [D:\sites\dsprog\app\Controller\AppController.php, line 40]
+2013-04-29 15:25:28 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 40, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 40, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 15:25:31 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [D:\sites\dsprog\app\Controller\AppController.php, line 40]
+2013-04-29 15:25:31 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /testes
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 40, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 40, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-29 16:02:16 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /pages
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 D:\sites\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-05-02 13:38:33 Error: Fatal Error (1): Call to a member function Active() on a non-object in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 32]
+2013-05-02 13:38:33 Error: [FatalErrorException] Call to a member function Active() on a non-object
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\sites\dsprog...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\sites\dsprog...', 32, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\sites\dsprog...', 32, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-02 13:38:41 Error: Fatal Error (1): Call to a member function active() on a non-object in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 32]
+2013-05-02 13:38:41 Error: [FatalErrorException] Call to a member function active() on a non-object
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\sites\dsprog...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\sites\dsprog...', 32, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\sites\dsprog...', 32, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-03 13:29:14 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [D:\sites\dsprog\app\View\Layouts\site.ctp, line 36]
+2013-05-03 13:29:14 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /curriculum
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 36, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 36, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-03 14:00:38 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 14:02:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 14:03:07 Error: [MissingControllerException] Controller class ContatoController could not be found.
+Exception Attributes: array (
+  'class' => 'ContatoController',
+  'plugin' => NULL,
+)
+Request URL: /contato
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 14:04:11 Error: [MissingControllerException] Controller class ContatoController could not be found.
+Exception Attributes: array (
+  'class' => 'ContatoController',
+  'plugin' => NULL,
+)
+Request URL: /contato
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 14:04:13 Error: [MissingControllerException] Controller class ContatoController could not be found.
+Exception Attributes: array (
+  'class' => 'ContatoController',
+  'plugin' => NULL,
+)
+Request URL: /contato
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 14:05:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 15:24:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 D:\sites\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-15 17:07:43 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\sites\dsprog\app\View\Pages\display.ctp, line 17]
+2013-05-15 17:07:43 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-15 17:07:47 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\sites\dsprog\app\View\Pages\display.ctp, line 17]
+2013-05-15 17:07:47 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-15 17:08:01 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\sites\dsprog\app\View\Pages\display.ctp, line 17]
+2013-05-15 17:08:01 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-15 17:08:17 Error: Fatal Error (4): syntax error, unexpected ';' in [D:\sites\dsprog\app\View\Pages\display.ctp, line 17]
+2013-05-15 17:08:17 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 17, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-15 17:14:34 Error: Fatal Error (4): syntax error, unexpected T_LNUMBER, expecting T_VARIABLE or '$' in [D:\sites\dsprog\app\View\Pages\display.ctp, line 21]
+2013-05-15 17:14:34 Error: [FatalErrorException] syntax error, unexpected T_LNUMBER, expecting T_VARIABLE or '$'
+Request URL: /
+Stack Trace:
+#0 D:\sites\dsprog\lib\Cake\Error\ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\sites\dsprog...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\sites\dsprog...', 21, Array)
+#2 D:\sites\dsprog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\sites\dsprog...', 21, Array)
+#3 D:\sites\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
