@@ -11,6 +11,11 @@
 			<?php echo $this->Html->link($content['ParentContent']['title'], array('controller' => 'contents', 'action' => 'view', $content['ParentContent']['id'])); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('User'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($content['User']['id'], array('controller' => 'users', 'action' => 'view', $content['User']['id'])); ?>
+			&nbsp;
+		</dd>
 		<dt><?php echo __('Title'); ?></dt>
 		<dd>
 			<?php echo h($content['Content']['title']); ?>
@@ -34,6 +39,11 @@
 		<dt><?php echo __('Status'); ?></dt>
 		<dd>
 			<?php echo h($content['Content']['status']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Promote'); ?></dt>
+		<dd>
+			<?php echo h($content['Content']['promote']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Type'); ?></dt>
@@ -62,6 +72,8 @@
 		<li><?php echo $this->Html->link(__('New Content'), array('action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Contents'), array('controller' => 'contents', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Parent Content'), array('controller' => 'contents', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <div class="related">
@@ -71,11 +83,13 @@
 	<tr>
 		<th><?php echo __('Id'); ?></th>
 		<th><?php echo __('Parent Id'); ?></th>
+		<th><?php echo __('User Id'); ?></th>
 		<th><?php echo __('Title'); ?></th>
 		<th><?php echo __('Slug'); ?></th>
 		<th><?php echo __('Body'); ?></th>
 		<th><?php echo __('Excerpt'); ?></th>
 		<th><?php echo __('Status'); ?></th>
+		<th><?php echo __('Promote'); ?></th>
 		<th><?php echo __('Type'); ?></th>
 		<th><?php echo __('Updated'); ?></th>
 		<th><?php echo __('Created'); ?></th>
@@ -87,11 +101,13 @@
 		<tr>
 			<td><?php echo $childContent['id']; ?></td>
 			<td><?php echo $childContent['parent_id']; ?></td>
+			<td><?php echo $childContent['user_id']; ?></td>
 			<td><?php echo $childContent['title']; ?></td>
 			<td><?php echo $childContent['slug']; ?></td>
 			<td><?php echo $childContent['body']; ?></td>
 			<td><?php echo $childContent['excerpt']; ?></td>
 			<td><?php echo $childContent['status']; ?></td>
+			<td><?php echo $childContent['promote']; ?></td>
 			<td><?php echo $childContent['type']; ?></td>
 			<td><?php echo $childContent['updated']; ?></td>
 			<td><?php echo $childContent['created']; ?></td>

@@ -6,6 +6,7 @@ App::uses('AppController', 'Controller');
  * @property Content $Content
  */
 class ContentsController extends AppController {
+
 /**
  * index method
  *
@@ -47,7 +48,8 @@ class ContentsController extends AppController {
 			}
 		}
 		$parentContents = $this->Content->ParentContent->find('list');
-		$this->set(compact('parentContents'));
+		$users = $this->Content->User->find('list');
+		$this->set(compact('parentContents', 'users'));
 	}
 
 /**
@@ -73,7 +75,8 @@ class ContentsController extends AppController {
 			$this->request->data = $this->Content->find('first', $options);
 		}
 		$parentContents = $this->Content->ParentContent->find('list');
-		$this->set(compact('parentContents'));
+		$users = $this->Content->User->find('list');
+		$this->set(compact('parentContents', 'users'));
 	}
 
 /**

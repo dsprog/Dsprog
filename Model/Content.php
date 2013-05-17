@@ -4,6 +4,7 @@ App::uses('AppModel', 'Model');
  * Content Model
  *
  * @property Content $ParentContent
+ * @property User $User
  * @property Content $ChildContent
  */
 class Content extends AppModel {
@@ -14,6 +15,16 @@ class Content extends AppModel {
  * @var array
  */
 	public $validate = array(
+		'user_id' => array(
+			'numeric' => array(
+				'rule' => array('numeric'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
 		'title' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
@@ -54,6 +65,16 @@ class Content extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
+		'promote' => array(
+			'boolean' => array(
+				'rule' => array('boolean'),
+				//'message' => 'Your custom message here',
+				//'allowEmpty' => false,
+				//'required' => false,
+				//'last' => false, // Stop validation after this rule
+				//'on' => 'create', // Limit validation to 'create' or 'update' operations
+			),
+		),
 		'type' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
@@ -77,6 +98,13 @@ class Content extends AppModel {
 		'ParentContent' => array(
 			'className' => 'Content',
 			'foreignKey' => 'parent_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'User' => array(
+			'className' => 'User',
+			'foreignKey' => 'user_id',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''

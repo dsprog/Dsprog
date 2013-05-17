@@ -19,6 +19,7 @@
         echo $this->Html->script(array('https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'));
         echo $this->Html->script('bootstrap.min');
         echo $this->fetch('script');
+        
         $atual = $this->request->controller.'/'.$this->request->action;
         ?>
     </head>

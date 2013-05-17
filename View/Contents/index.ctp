@@ -4,11 +4,13 @@
 	<tr>
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('parent_id'); ?></th>
+			<th><?php echo $this->Paginator->sort('user_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('title'); ?></th>
 			<th><?php echo $this->Paginator->sort('slug'); ?></th>
 			<th><?php echo $this->Paginator->sort('body'); ?></th>
 			<th><?php echo $this->Paginator->sort('excerpt'); ?></th>
 			<th><?php echo $this->Paginator->sort('status'); ?></th>
+			<th><?php echo $this->Paginator->sort('promote'); ?></th>
 			<th><?php echo $this->Paginator->sort('type'); ?></th>
 			<th><?php echo $this->Paginator->sort('updated'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
@@ -20,11 +22,15 @@
 		<td>
 			<?php echo $this->Html->link($content['ParentContent']['title'], array('controller' => 'contents', 'action' => 'view', $content['ParentContent']['id'])); ?>
 		</td>
+		<td>
+			<?php echo $this->Html->link($content['User']['id'], array('controller' => 'users', 'action' => 'view', $content['User']['id'])); ?>
+		</td>
 		<td><?php echo h($content['Content']['title']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['slug']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['body']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['excerpt']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['status']); ?>&nbsp;</td>
+		<td><?php echo h($content['Content']['promote']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['type']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['updated']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['created']); ?>&nbsp;</td>
@@ -56,5 +62,7 @@
 		<li><?php echo $this->Html->link(__('New Content'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List Contents'), array('controller' => 'contents', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Parent Content'), array('controller' => 'contents', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
