@@ -1,6 +1,6 @@
 <?php
 class DATABASE_CONFIG {
-	/*public $default = array(
+	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -9,7 +9,7 @@ class DATABASE_CONFIG {
 		'database' => 'dsprog',
 		'prefix' => '',
 		'encoding' => 'utf8'
-	);*/
+	);/*
         public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
@@ -19,5 +19,5 @@ class DATABASE_CONFIG {
 		'database' => 'dsprog_sys',
 		'prefix' => '',
 		'encoding' => 'utf8'
-	);        
+	);*/
 }

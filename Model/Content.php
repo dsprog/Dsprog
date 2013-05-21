@@ -106,7 +106,7 @@ class Content extends AppModel {
 			'className' => 'User',
 			'foreignKey' => 'user_id',
 			'conditions' => '',
-			'fields' => '',
+			'fields' => array('user_id', 'nome'),
 			'order' => ''
 		)
 	);

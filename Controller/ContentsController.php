@@ -33,11 +33,11 @@ class ContentsController extends AppController {
 	}
 
 /**
- * add method
+ * admin add method
  *
  * @return void
  */
-	public function add() {
+	public function admin_add() {
 		if ($this->request->is('post')) {
 			$this->Content->create();
 			if ($this->Content->save($this->request->data)) {

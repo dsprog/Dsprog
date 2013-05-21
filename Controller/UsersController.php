@@ -8,23 +8,23 @@ App::uses('AppController', 'Controller');
 class UsersController extends AppController {
 
 /**
- * index method
+ * admin index method
  *
  * @return void
  */
-	public function index() {
+	public function admin_index() {
 		$this->User->recursive = 0;
 		$this->set('users', $this->paginate());
 	}
 
 /**
- * view method
+ * admin view method
  *
  * @throws NotFoundException
  * @param string $id
  * @return void
  */
-	public function view($id = null) {
+	public function admin_view($id = null) {
 		if (!$this->User->exists($id)) {
 			throw new NotFoundException(__('Invalid user'));
 		}
@@ -33,11 +33,11 @@ class UsersController extends AppController {
 	}
 
 /**
- * add method
+ * admin add method
  *
  * @return void
  */
-	public function add() {
+	public function admin_add() {
 		if ($this->request->is('post')) {
 			$this->User->create();
 			if ($this->User->save($this->request->data)) {
@@ -47,18 +47,16 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}
 		}
-		$roles = arrray('1'=>'Master', '2'=>'Admininistrador', '3'=>'Usuário');
-		$this->set(compact('roles', $roles));
 	}
 
 /**
- * edit method
+ * admin edit method
  *
  * @throws NotFoundException
  * @param string $id
  * @return void
  */
-	public function edit($id = null) {
+	public function admin_edit($id = null) {
 		if (!$this->User->exists($id)) {
 			throw new NotFoundException(__('Invalid user'));
 		}
@@ -76,13 +74,13 @@ class UsersController extends AppController {
 	}
 
 /**
- * delete method
+ * admin del method
  *
  * @throws NotFoundException
  * @param string $id
  * @return void
  */
-	public function delete($id = null) {
+	public function admin_del($id = null) {
 		$this->User->id = $id;
 		if (!$this->User->exists()) {
 			throw new NotFoundException(__('Invalid user'));
