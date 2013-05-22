@@ -12,7 +12,7 @@ class ContentsController extends AppController {
  *
  * @return void
  */
-	public function index() {
+	public function admin_index() {
 		$this->Content->recursive = 0;
 		$this->set('contents', $this->paginate());
 	}

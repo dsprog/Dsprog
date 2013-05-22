@@ -106,7 +106,7 @@ class Content extends AppModel {
 			'className' => 'User',
 			'foreignKey' => 'user_id',
 			'conditions' => '',
-			'fields' => array('user_id', 'nome'),
+			'fields' => '',
 			'order' => ''
 		)
 	);
@@ -132,4 +132,18 @@ class Content extends AppModel {
 		)
 	);
 
+	public $actsAs = array(
+        'Upload.Upload' => array(
+            'image' => array(
+                'fields' => array(
+                    'dir' => 'image_dir'
+                ),
+                'thumbnailSizes' => array(
+                    'xvga' => '1024x768',
+                    'vga' => '640x480',
+                    'thumb' => '80x80'
+                )
+            )
+        )
+    );
 }

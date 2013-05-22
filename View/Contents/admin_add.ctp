@@ -1,5 +1,5 @@
 <div class="contents form">
-<?php echo $this->Form->create('Content'); ?>
+<?php echo $this->Form->create('Content', array('type' => 'file')); ?>
 	<fieldset>
 		<legend><?php echo __('Add Content'); ?></legend>
 	<?php
@@ -10,6 +10,8 @@
 		echo $this->Form->input('body');
 		echo $this->Form->input('excerpt');
 		echo $this->Form->input('status');
+		echo $this->Form->input('image', array('type' => 'file'));
+		echo $this->Form->input('image_dir', array('type' => 'hidden'));
 		echo $this->Form->input('promote');
 		echo $this->Form->input('type');
 	?>

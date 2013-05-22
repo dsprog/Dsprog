@@ -1,7 +1,7 @@
 <?php
 /**
 * Simple Menu Helper for CakePHP
-* 
+*
 * Conventient to use when switching css classes to the currently active url.
 * I wrote this class to be used with the bootstrap library.
 *
@@ -10,7 +10,7 @@
 * class AppController extends Controller{
 *     public $helpers = array('Menu');
 * }
-* 
+*
 * Anywhere in your view create a menu array
 *
 * $menu = array(
