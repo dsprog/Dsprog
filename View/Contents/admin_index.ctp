@@ -32,8 +32,8 @@
 		<td><?php echo h($content['Content']['status']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['promote']); ?>&nbsp;</td>
 		<td><?php echo h($content['Content']['type']); ?>&nbsp;</td>
-		<td><?php echo h($content['Content']['updated']); ?>&nbsp;</td>
-		<td><?php echo h($content['Content']['created']); ?>&nbsp;</td>
+		<td><?php echo $this->Locale->datetime($content['Content']['updated']); ?>&nbsp;</td>
+		<td><?php echo $this->Locale->datetime($content['Content']['created']); ?>&nbsp;</td>
 		<td class="actions">
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $content['Content']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $content['Content']['id'])); ?>

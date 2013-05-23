@@ -33,5 +33,5 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $components = array('Session', 'DebugKit.Toolbar');
-    public $helpers = array('Html','Form','Js','Menu');
+    public $helpers = array('Html','Form','Js','Menu','Locale.Locale');
 }

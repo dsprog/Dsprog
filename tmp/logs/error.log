@@ -1803,3 +1803,108 @@ Stack Trace:
 #3 C:\xampp\htdocs\dsprog\lib\Cake\Core\App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-05-23 02:11:31 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\Config\bootstrap.php(75): CakePlugin::load('Upload')
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Core\Configure.php(93): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\dsprog\lib\Cake\bootstrap.php(170): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\dsprog\app\webroot\index.php(91): include('C:\xampp\htdocs...')
+#4 {main}
+2013-05-23 02:11:33 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\Config\bootstrap.php(75): CakePlugin::load('Upload')
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Core\Configure.php(93): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\dsprog\lib\Cake\bootstrap.php(170): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\dsprog\app\webroot\index.php(91): include('C:\xampp\htdocs...')
+#4 {main}
+2013-05-23 02:11:33 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\Config\bootstrap.php(75): CakePlugin::load('Upload')
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Core\Configure.php(93): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\dsprog\lib\Cake\bootstrap.php(170): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\dsprog\app\webroot\index.php(91): include('C:\xampp\htdocs...')
+#4 {main}
+2013-05-23 02:11:34 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\Config\bootstrap.php(75): CakePlugin::load('Upload')
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Core\Configure.php(93): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\dsprog\lib\Cake\bootstrap.php(170): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\dsprog\app\webroot\index.php(91): include('C:\xampp\htdocs...')
+#4 {main}
+2013-05-23 02:11:35 Error: [MissingPluginException] Plugin Upload could not be found.
+Exception Attributes: array (
+  'plugin' => 'Upload',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\Config\bootstrap.php(75): CakePlugin::load('Upload')
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Core\Configure.php(93): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\dsprog\lib\Cake\bootstrap.php(170): Configure::bootstrap(true)
+#3 C:\xampp\htdocs\dsprog\app\webroot\index.php(91): include('C:\xampp\htdocs...')
+#4 {main}
+2013-05-23 02:12:12 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /admin/content/
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-23 02:15:08 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /admin/content
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-23 02:15:12 Error: [MissingPluginException] Plugin Locale could not be found.
+Exception Attributes: array (
+  'plugin' => 'Locale',
+)
+Request URL: /admin/contents
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\lib\Cake\Core\App.php(366): CakePlugin::path('Locale')
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Core\App.php(227): App::pluginPath('Locale')
+#2 C:\xampp\htdocs\dsprog\lib\Cake\Core\App.php(544): App::path('Model/Behavior', 'Locale')
+#3 [internal function]: App::load('LocaleBehavior')
+#4 [internal function]: spl_autoload_call('LocaleBehavior')
+#5 C:\xampp\htdocs\dsprog\lib\Cake\Model\BehaviorCollection.php(122): class_exists('LocaleBehavior')
+#6 C:\xampp\htdocs\dsprog\lib\Cake\Model\BehaviorCollection.php(68): BehaviorCollection->load('Locale.Locale', Array)
+#7 C:\xampp\htdocs\dsprog\lib\Cake\Model\Model.php(749): BehaviorCollection->init('Content', Array)
+#8 [internal function]: Model->__construct(Array)
+#9 C:\xampp\htdocs\dsprog\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#10 C:\xampp\htdocs\dsprog\lib\Cake\Controller\Controller.php(734): ClassRegistry::init(Array)
+#11 C:\xampp\htdocs\dsprog\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Content')
+#12 C:\xampp\htdocs\dsprog\lib\Cake\Controller\Controller.php(405): Controller->__isset('Content')
+#13 C:\xampp\htdocs\dsprog\app\Controller\ContentsController.php(16): Controller->__get('Content')
+#14 [internal function]: ContentsController->admin_index()
+#15 C:\xampp\htdocs\dsprog\lib\Cake\Controller\Controller.php(486): ReflectionMethod->invokeArgs(Object(ContentsController), Array)
+#16 C:\xampp\htdocs\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#17 C:\xampp\htdocs\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest), Object(CakeResponse))
+#18 C:\xampp\htdocs\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2013-05-23 02:19:45 Error: [MissingActionException] Action ContentsController::admin_view() could not be found.
+Exception Attributes: array (
+  'controller' => 'ContentsController',
+  'action' => 'admin_view',
+)
+Request URL: /admin/contents/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\dsprog\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dsprog\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dsprog\app\webroot\index.php(109): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
