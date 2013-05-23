@@ -6,6 +6,7 @@
 -- Date/time:                    2013-05-22 20:09:44
 -- --------------------------------------------------------
 
+<<<<<<< HEAD
 -- Dumping structure for table dsprog.contents
 DROP TABLE IF EXISTS `contents`;
 CREATE TABLE IF NOT EXISTS `contents` (
@@ -34,6 +35,40 @@ INSERT INTO `contents` (`id`, `parent_id`, `user_id`, `title`, `slug`, `body`, `
 /*!40000 ALTER TABLE `contents` ENABLE KEYS */;
 
 
+=======
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!40014 SET FOREIGN_KEY_CHECKS=0 */;
+
+-- Dumping structure for table dsprog.contents
+DROP TABLE IF EXISTS `contents`;
+CREATE TABLE IF NOT EXISTS `contents` (
+  `id` int(20) NOT NULL AUTO_INCREMENT,
+  `parent_id` int(20) DEFAULT NULL,
+  `user_id` int(20) NOT NULL DEFAULT '0',
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `body` text COLLATE utf8_unicode_ci NOT NULL,
+  `excerpt` text COLLATE utf8_unicode_ci,
+  `status` tinyint(1) NOT NULL DEFAULT '0',
+  `promote` tinyint(1) NOT NULL DEFAULT '0',
+  `type` varchar(100) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'pagina',
+  `image` varchar(255) COLLATE utf8_unicode_ci DEFAULT '0',
+  `image_dir` varchar(255) COLLATE utf8_unicode_ci DEFAULT '0',
+  `updated` datetime NOT NULL,
+  `created` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- Dumping data for table dsprog.contents: ~2 rows (approximately)
+/*!40000 ALTER TABLE `contents` DISABLE KEYS */;
+INSERT INTO `contents` (`id`, `parent_id`, `user_id`, `title`, `slug`, `body`, `excerpt`, `status`, `promote`, `type`, `image`, `image_dir`, `updated`, `created`) VALUES
+  (1, NULL, 1, 'Teste', 'teste', 'Corpo do site', 'Resumo', 1, 1, 'portfolio', '0', '0', '2013-05-22 02:25:36', '2013-05-22 02:25:36'),
+	(2, NULL, 1, 'dasdsa', 'dasdsd', 'dasdas', '', 0, 1, 'image/jpeg', 'Hydrangeas.jpg', '', '2013-05-22 02:58:11', '2013-05-22 02:58:11');
+/*!40000 ALTER TABLE `contents` ENABLE KEYS */;
+
+
+>>>>>>> 5cd1288fdc9bd5ee261f830b1a0823f34fbfd62c
 -- Dumping structure for table dsprog.links
 DROP TABLE IF EXISTS `links`;
 CREATE TABLE IF NOT EXISTS `links` (
