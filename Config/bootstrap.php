@@ -23,6 +23,12 @@
  * @since         CakePHP(tm) v 0.10.8.2117
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
+// Definição de locale para formatar saída de Data, Hora, moedas e etc
+setlocale(LC_ALL, 'pt_BR.utf-8', 'pt_BR', 'pt-br', 'pt', 'pt_BR.iso-8859-1', 'portuguese');
+
+// Definição de variável de localização para uso no sistema
+Configure::write('Config.language', 'pt_br');
+Configure::write('Language.default', 'pt-br');
 
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
@@ -73,6 +79,8 @@ Cache::config('default', array('engine' => 'File'));
  */
 CakePlugin::load('DebugKit');
 CakePlugin::load('Locale');
+CakePlugin::load('TinyMCE');
+CakePlugin::load('TwitterBootstrap');
 /**
  * You can attach event listeners to the request lifecycle as Dispatcher Filter . By Default CakePHP bundles two filters:
  *

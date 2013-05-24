@@ -33,5 +33,9 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $components = array('Session', 'DebugKit.Toolbar');
-    public $helpers = array('Html','Form','Js','Menu','Locale.Locale');
+    public $helpers = array('Html','Form','Js','Menu','Locale.Locale','TinyMCE.TinyMCE',
+		'Html'		=> array('className' => 'TwitterBootstrap.BootstrapHtml'),
+		'Form'		=> array('className' => 'TwitterBootstrap.BootstrapForm'),
+		'Paginator'	=> array('className' => 'TwitterBootstrap.BootstrapPaginator'),
+	);
 }

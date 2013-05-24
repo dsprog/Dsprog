@@ -1,3 +1,18 @@
+<?php
+$this->TinyMCE->editor(array(
+		'mode' => 'exact',
+		'language' => 'pt',
+		'theme' => 'advanced',
+		'elements' => 'ContentBody',
+		'theme_advanced_toolbar_location' => 'top',
+		'theme_advanced_toolbar_align' => 'left',
+		'theme_advanced_resizing' => true,
+		'skin' => 'o2k7',
+		'skin_variant' => 'silver',
+		'height' => '300px',
+		'width' => '80%'
+	)
+); ?>
 <div class="contents form">
 <?php echo $this->Form->create('Content', array('type' => 'file')); ?>
 	<fieldset>

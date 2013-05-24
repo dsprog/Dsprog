@@ -38,6 +38,7 @@ class ContentsController extends AppController {
  * @return void
  */
 	public function admin_add() {
+		$this->layout = 'admin';
 		if ($this->request->is('post')) {
 			$this->Content->create();
 			if ($this->Content->save($this->request->data)) {
